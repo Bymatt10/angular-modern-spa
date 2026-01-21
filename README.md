@@ -1,59 +1,34 @@
-# AngularPortfolioDemo
+# Modern Angular Inventory System SPA
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+Una aplicación de gestión de inventarios completa, moderna y reactiva construida con **Angular 17+**.
 
-## Development server
+## Características 🌟
+- **Autenticación**: Login y Registro simulados (Mock Auth).
+- **Dashboard**: Layout responsivo con barra lateral de navegación.
+- **Gestión de Inventario**: Visualización de productos en tablas dinámicas.
+- **Reportes PDF**: Generación de reportes de inventario exportables a PDF usando `jspdf`.
+- **Arquitectura Basada en Componentes**: Standalone Components y Signals.
+- **Routing**: Rutas protegidas y lazy loading.
 
-To start a local development server, run:
+## Tecnologías Utilizadas
+- Angular 17+ (Standalone APIs)
+- TypeScript
+- RxJS
+- jsPDF & jsPDF-AutoTable (Exportación)
 
-```bash
-ng serve
-```
+## Cómo ejecutar 🚀
+1. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+2. Iniciar servidor de desarrollo:
+   ```bash
+   ng serve
+   ```
+3. Visita `http://localhost:4200/`.
+   - **Login Demo**: Usa cualquier email/password.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Funcionalidades Clave implementadas
+- `/login`: Formulario de acceso.
+- `/register`: Formulario de registro.
+- `/dashboard/products`: Lista de inventario con stock en tiempo real y botón de exportar PDF.
